@@ -1,0 +1,17 @@
+.dayWeather
+{
+    display: inline-block;
+    height: 150px;
+    border: 1px solid #4d4d4d;
+    margin: 20px;
+    padding: 15px;
+}
+.dayWeather p:first-of-type
+{
+    color: blue;
+}
+.dayWeather p
+{
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #4d4d4d;
+}

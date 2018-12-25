@@ -1,0 +1,41 @@
+.wrapperCheckbox
+{
+    position: absolute;
+    left:50px;
+    top:150px;
+    z-index: 1;
+}
+input[type = "text"]
+{
+    border: none;
+    position: absolute;
+    z-index: 1;
+    top: 50px;
+    left: 50px;
+    width: 250px;
+    padding: 15px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+    outline: none;
+}
+input[type = "text"]:focus
+{
+    background-color: rgba(0,0,0,0.2)
+}
+input[type = "text"].existentCity
+{
+    border: 1px solid blue;
+}
+input[type = "text"].nonexistentCity
+{
+    border: 1px solid red;
+}
+.wrapperWeather
+{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    z-index: 1;
+}
